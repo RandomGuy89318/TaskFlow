@@ -30,8 +30,13 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
-# env files (can opt-in for committing if needed)
+# internal dev artifacts
+tsc_output.txt
+FIXES_SUMMARY.md
+
+# env files — ignore all except the safe example template
 .env*
+!.env.example
 
 # vercel
 .vercel
